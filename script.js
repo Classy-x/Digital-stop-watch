@@ -25,19 +25,19 @@ function add(){
          }
          else{
             he.textContent = "00";
-            i = 0;
+            i = 1;
             if(j<=59){
              min.textContent=pad(j++);        
             }
             else{
                 min.textContent="00";
-                j=0;
+                j=1;
                 if(k<=24){
                     hr.textContent=pad(k++);   
                 }
                 else{
                     hr.textContent="00";
-                    k=0;
+                    k=1;
                     day.textContent=pad(l++);
 
                 }
