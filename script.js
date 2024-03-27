@@ -21,7 +21,6 @@ function add(){
          let he=document.getElementById("sec")
          if(i<=59){
             he.textContent=pad(i++);
-            he.style.strokeDashoffset=i;
          }
          else{
             he.textContent = "00";
