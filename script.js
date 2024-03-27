@@ -72,7 +72,7 @@ document.getElementById("Re").addEventListener("click",()=>{
 
     let day = document.getElementById("day");
     day.textContent = "00";
-    k=0;
+    l=0;
     st.addEventListener("click", add);
 
 })
