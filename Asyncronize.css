@@ -1,0 +1,96 @@
+body{
+    background-color: #2C303B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+body>h1{
+    text-shadow: 1px 1px 3px white;
+}
+
+#hour{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    font-size:large;
+    margin-top: 10px;
+}
+.time{
+    border: 2px solid grey;
+    box-shadow: 0px 0px 10px 0px gray;
+    border-radius: 50%;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 0px;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    
+}
+
+.but{
+    width: 120px;
+    height: 35px;
+    font-size: larger;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: 2px solid rgb(255,213,79);
+    color: rgb(255,213,79);
+    background-color:  #2C303B;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+}
+.but:hover{
+    color: #2C303B;
+    background-color: rgb(255,213,79);
+    transition: 0.2s;
+}
+
+.but.active {
+    background-color: rgb(255,213,79);
+    color: #2C303B;
+  }
+#hour h1{
+   display: inline;
+   font-size: xx-large;
+   margin-top: 12px;
+
+}
+#hour .time{
+    font-size: x-small;
+}
+
+@media screen and (max-width: 450px)  {
+    #buttons{
+        flex-direction: column;
+        width: 300px;
+
+    }
+    #hour{
+        width: 350px;
+    }
+    
+} 
+
+
+
